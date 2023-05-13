@@ -1,3 +1,4 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
 
@@ -92,7 +93,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  appearance: button;
+  -webkit-appearance: button;
 }
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
@@ -142,15 +143,15 @@ textarea {
 [type=search] {
   outline-offset: -2px;
 
-  appearance: textfield;
+  -webkit-appearance: textfield;
 }
 [type=search]::-webkit-search-decoration {
-  appearance: none;
+  -webkit-appearance: none;
 }
 ::-webkit-file-upload-button {
   font: inherit;
 
-  appearance: button;
+  -webkit-appearance: button;
 }
 details {
   display: block;
